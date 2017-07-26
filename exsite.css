@@ -303,10 +303,3 @@ section .displayR{
     color: white;
     cursor: pointer;        
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
