@@ -226,7 +226,7 @@ section .displayR{
     width:100px ;    
     border: 0px;
     margin-top:5px;        
-    margin-left: 300px;
+    margin-left: 65%;
 }
 
 .bottom{
@@ -302,4 +302,10 @@ section .displayR{
     background: #777;
     color: white;
     cursor: pointer;        
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
